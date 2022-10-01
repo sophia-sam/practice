@@ -1,21 +1,9 @@
 *{
     border: 0;
     margin: 0;
-     font-size: 20px;
-     text-decoration: none;
-      color: black;
- list-style: none;
- box-sizing: border-box;
-}
-nav{
-     display:inline-flex;
-}
-nav ul li {
-    display: inline-flex;
-}
-.nav-txt bold{
-    float: right;
-}
-a{
-    float: left;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    list-style: none;
+    box-sizing: border-box;
 }
