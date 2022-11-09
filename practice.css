@@ -1,9 +1,92 @@
+/*Master styles*/
 *{
-    border: 0;
+    border: 0px;
     margin: 0;
-    font-size: 20px;
     text-decoration: none;
     color: black;
-    list-style: none;
-    box-sizing: border-box;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+/*nav styles*/
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+    background-color: rgb(51, 77, 150);
+}
+.left-side{
+    display: flex;
+}
+.nav > .left-side > div{
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+.nav-link{
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 1s;
+}
+.nav-link a{
+    color: bisque;
+    transition: color 1s;
+    font-family: cursive;
+}
+.nav-link:hover{
+    border-bottom: 1px solid coral;
+}
+.nav-link a:hover{
+    color: coral;
+}
+.right-side>.name>div{
+    font-weight: bolder;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: plum;
+}
+/*portfolio styles*/
+.portfolio-items{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.portfolio-item{
+    position: relative;
+}
+.portfolio-img{
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.text{
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.text:hover .subtitle{
+    font-weight: bolder;
+    color: aquamarine;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.text:hover .subtitle a{
+    color:red;
+}
+.text .subtitle{
+    transition: 1s;
+    color: transparent;
+    font-weight: bolder;
+}
+.text .subtitle a{
+    transition: 1s;
+    color: transparent;
+    font-weight: bolder;
 }
