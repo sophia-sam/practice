@@ -73,9 +73,10 @@
     padding-right: 100px;
 }
 .text:hover .subtitle{
-    font-weight: bolder;
+    font-weight: 600;
     color: aquamarine;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
 }
 .text:hover .subtitle a{
     color:red;
@@ -83,10 +84,74 @@
 .text .subtitle{
     transition: 1s;
     color: transparent;
-    font-weight: bolder;
+    font-weight: 600;
 }
 .text .subtitle a{
     transition: 1s;
     color: transparent;
-    font-weight: bolder;
+    font-weight: 600;
 }
+.darken{
+    transition: 1s;
+    filter: brightness(10%);
+}
+.active{
+    border-bottom: 1px solid black;
+}
+.active a{
+    color: black !important;
+}
+.column{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.image img{
+    width: 100%;
+}
+.content h1{
+    color: plum;
+}
+.content p{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+a.button{
+    font-family: cursive;
+    
+}
+.button:hover{
+ border-bottom: 1px solid coral;
+}
+a.button:hover{
+    color: coral;
+}
+a.button{
+    color: bisque;
+    text-transform: uppercase;
+}
+.profile h1{
+    justify-content: center;
+    text-align: center;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+
+}
+.link{
+    padding-right:20px ;
+}
+.right-side{
+    display: flex;
+}
+.button:visited{
+    border-bottom: 1px solid black;
+}
+a.button:visited{
+     color:black;
+}
+    .profile p{
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-weight: 660;
+   font-size: large;
+    }
