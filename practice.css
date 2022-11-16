@@ -76,7 +76,7 @@
 .text:hover .subtitle{
     font-weight: 600;
     color: aquamarine;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: cursive;
     text-align: center;
 }
 .text:hover .subtitle a{
@@ -86,6 +86,7 @@
     transition: 1s;
     color: transparent;
     font-weight: 600;
+    font-family: cursive;
 }
 .text .subtitle a{
     transition: 1s;
@@ -114,7 +115,7 @@
     color: plum;
 }
 .content p{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 a.button{
