@@ -4,6 +4,7 @@
     margin: 0;
     text-decoration: none;
     color: black;
+    padding: 0;
 }
 .container{
     display: grid;
@@ -140,7 +141,7 @@ a.button{
 .links{
     display: flex;
     justify-content: space-between;
-
+    flex-wrap: wrap;
 }
 .link{
     padding-right:20px ;
@@ -159,3 +160,29 @@ a.button:visited{
    font-weight: 660;
    font-size: large;
  }
+ @media(max-width:900px) and (max-width:600px){
+    .nav{
+        background-color: rgb(195, 0, 255);
+    }
+    body{
+        align-items: center;
+    }
+    .text{
+        position: absolute;
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        text-align: center;
+        padding-right: 100px;
+    } 
+    .portfolio-items{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: auto;
+    }
+}
+  
